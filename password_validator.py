@@ -1,4 +1,4 @@
-#Passwor Validator (Unit Testing)
+# Passwor Validator (Unit Testing)
 
 
 ALLOWED_SPECIALS = set("!@#$%")
@@ -38,3 +38,4 @@ def validate_password(pw: str) -> bool:
                 return False
 
     return True
+
